@@ -1,0 +1,166 @@
+/* FONTS */
+@font-face {
+    font-family: "Apercu Bold";
+    src: url("../fonts/Apercu\ Bold.otf");
+}
+
+@font-face {
+    font-family: "Apercu Medium";
+    src: url("../fonts/Apercu\ Medium.otf");
+}
+
+@font-face {
+    font-family: "Apercu Regular";
+    src: url("../fonts/Apercu\ Regular.otf");
+}
+
+@font-face {
+    font-family: "Apercu Light";
+    src: url("../fonts/Apercu\ Light.otf");
+}
+
+/* CONFIG */
+body{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+header {
+   margin: 32px;
+   margin-bottom: 0px;
+}
+
+a { 
+   text-decoration: none;
+   color: black;
+}
+
+main{
+   margin-bottom: 48px;
+   margin-left: 32px;
+   margin-right: 32px;
+}
+
+/* HEADER */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  border-radius: 16px;
+  background-color: #f3f3f3;
+  align-items: center;
+}
+
+nav div{
+  font-family: "Apercu Medium", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;  
+  display: flex;
+  margin-right: 32px;
+  gap: 32px;
+}
+
+nav a:hover{
+   font-family: "Apercu Bold", Arial, Helvetica, sans-serif;
+}
+
+header section{
+   display: flex;
+   flex-direction: row;
+   margin-top: 56px;
+}
+
+nav p{
+   font-family: "Apercu Medium", Arial, Helvetica, sans-serif; 
+   font-size: 16px;
+   line-height: 20px; 
+   margin-left: 32px;
+}
+
+.overview{
+   width: 50%;
+}
+
+section p{
+   font-family: "Apercu Light", Arial, Helvetica, sans-serif; 
+   font-size: 20px;
+   line-height: 24px; 
+}
+
+.tools{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 32px;
+   margin-bottom: 40px;
+}
+
+.caracteristica{
+   display: flex;
+   flex-direction: column;
+}
+
+.imagen{
+   width: 100%;
+}
+
+.redondeado{
+   padding: 16px;
+   border-radius: 16px;
+   background-color: #E0E0E0;
+   align-items: center;
+}
+
+.description{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   width: 50%;
+}
+
+.caja{
+   margin-top: 56px;
+   margin-bottom: 40px;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+p{
+   font-family: "Apercu Light", Arial, Helvetica, sans-serif; 
+   font-size: 20px;
+   line-height: 24px;
+}
+
+h1{
+   font-family: "Apercu Medium", Arial, Helvetica, sans-serif; 
+   font-size: 32px;
+   line-height: 39px;
+   width: 50%;
+}
+
+h2{
+   font-family: "Apercu Bold", Arial, Helvetica, sans-serif; 
+   font-size: 24px;
+   line-height: 30px;
+   width: 50%;
+}
+
+h3{
+   font-family: "Apercu Light", Arial, Helvetica, sans-serif; 
+   font-size: 20px;
+}
+
+
+h4{
+   font-family: "Apercu Bold", Arial, Helvetica, sans-serif; 
+   font-size: 16px;
+   line-height: 20px;
+}
+
+h5{
+   font-family: "Apercu Bold", Arial, Helvetica, sans-serif; 
+   font-size: 20px;
+   line-height: 25px;
+}
+
